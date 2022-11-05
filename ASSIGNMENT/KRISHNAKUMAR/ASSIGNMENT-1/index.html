@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        background-color: #ddd;
+        align-items: center;
+        justify-content: center;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+    .container{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding: 20px 20px;
+    }
+
+    .box{
+        flex: 30%;
+        display: table;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        background-color: #0d1425;
+        color: #fff;
+        padding: 30px 30px;
+        border-radius: 20px;
+    }
+
+    .box img{
+        border-radius: 50%;
+        border: 2px solid #fff;
+        height: 250px;
+        width: 250px;
+    }
+
+    .box ul{
+        margin-top: 30px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .box ul li{
+        list-style: none;
+        margin-top: 50px;
+        font-weight: 100;
+    }
+
+    .box ul li i{
+        cursor: pointer;
+        margin: 10px;
+        font-size: 40px;
+    }
+
+    .box ul li i:hover{
+        opacity: 0.6;
+    }
+
+    .About{
+        margin-left: 20px;
+        flex: 50%;
+        display: table;
+        padding: 30px 30px;
+        font-size: 20px;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+
+    .About h1{
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    .About ul li{
+        list-style: none;
+    }
+
+    .About ul{
+        margin-top: 20px;
+    }
+
+    @media screen and (max-width: 1068px) {
+        .container{
+            display: table;
+        }
+
+        .box{
+            width: 100%;
+        }
+
+        .About{
+            width: 100%;
+            margin: 0;
+            margin-top: 20px;
+        }
+
+        .About h1{
+            text-align: center;
+        }
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="/fc4f1e6d-1bd4-4b6a-a7eb-3b722e940ba2.jpg" alt="">
+            <ul>
+                <li>KRISHNAKUMAR S</li>
+                <li>21 years</li>
+                <li>Web Developer</li><br>
+                <form action="/(1) WhatsApp.html">
+                    <button type="submit">My Resume</button>
+                 </form>
+
+                <li><i style="font-size:24px" class="fa">&#xf230;</i>
+                    <i style="font-size:24px" class="fa">&#xf0d5;</i>
+                    <i style="font-size:24px" class="fa">&#xf0e1;</i></li>
+            </ul>
+        </div>
+        <div class="About">
+            <ul>
+                <h1>about</h1>
+            </ul>
+            <ul>
+                <h3>Work</h3>
+                <li>Student</li>
+            </ul>
+            <ul>
+                <h3>Gender</h3>
+                <li>male</li>
+            </ul>
+            <ul>
+                <h3>Country</h3>
+                <li>INDIA</li>
+            </ul>
+            <ul>
+                <h3>So , Who Am I</h3>
+                <p>I'm a Frontend Developer , dedicated and open-minded. 
+                    I get across to people and adjust to changes with ease.
+                     I believe that a person should work on developing their
+                      professional skills and learning new things all the time. 
+                      Currently, I am looking for new career opportunities.</p>
+            </ul>
+            <ul>
+                <h3>Contact</h3>
+                <li>kit.23.19bec056@gmail.com</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
