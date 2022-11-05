@@ -1,0 +1,50 @@
+{% extends 'base.html'%}
+
+{% block head%}
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  {% endblock %}
+
+  {%block body%}
+  <body class="p-3 m-0 border-0 bd-example">
+
+    <!-- Example Code -->
+    <style>
+     *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;       
+    }
+
+    </style>
+    
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Assignment</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="{{ url_for('login') }}">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="{{ url_for('signup') }}">SignUp</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="{{ url_for('contact') }}">Contact</a>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+  </body>
+  {% endblock %}

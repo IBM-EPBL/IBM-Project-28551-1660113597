@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename= 'css/signup.css') }}">
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <script src="script/script.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+{% endblock %}
+
+{% block body %}
+<body>
+    <div class="container">
+        
+        <form action="#">
+            <p>Signup</p>
+           
+            <input type="text" id="name" placeholder="Enter Name">
+            <input type="email" id="pos" placeholder="Enter Mail">
+            <input type="password" id="name" placeholder="Enter Password">
+            <input type="password" id="pos" placeholder="Conform password">
+            
+            <button >Signup</button>
+
+        </form>
+    </div>
+</body>
+</html>
+{% endblock %}
+
+
