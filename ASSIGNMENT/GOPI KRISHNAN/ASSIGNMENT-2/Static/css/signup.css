@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: linear-gradient(180deg,#1518e6,#fa20e1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: poppins;
+    margin: 0 auto;
+}
+.container{
+    
+    background-color: #f6feff ;
+    border-radius: 10px;
+    padding: 20px 10px;
+    box-shadow: 0px 14px 28px rgba(0,0, 0, .25),
+                    0px 10px 10px rgba(0,0, 0, .23)     ;
+}
+.logo{
+  
+    text-align: center;
+}
+#ico{
+    position: absolute;
+    margin-top: 43px;
+    margin-right: 165px;
+    
+}
+#ico1{
+    
+    padding: 1px;
+    position: absolute;
+    margin-top: 95px;
+    margin-right: 165px;
+}
+img{
+    
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+p{
+    color: #3133a3;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #3133a3;
+}
+form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding:25px;    
+}
+
+input{
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    font-family: poppins;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 5px;
+    width: 100%;
+    background-color: #f7f7f7;
+    color: black;
+    
+    
+    
+}
+button{
+    margin-top: 10px;
+    padding: 8px 22px;
+    border-radius: 15px;
+    border: 1px #1518e6;
+    background-color: #3133a3;
+    color: white;
+}
+button:hover{
+    background-color: #1518e6;
+}
